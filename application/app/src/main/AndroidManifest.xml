@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/movie"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/movie_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fyp"
+        android:usesCleartextTraffic="true"
+        android:enableOnBackInvokedCallback="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".UserLogin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ChangePasswordInterface"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.fyp.ChangePasswordInterface" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Recommendation"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.fyp.Recommendation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.fyp.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".UserRegister"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.fyp.UserRegister" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MovieAdapter"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.fyp.MovieAdapter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MovieChoice"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.fyp.MovieChoice" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MovieRecAdapter"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.fyp.MovieRecAdapter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MovieRetriever"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.fyp.MovieRetriever" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".GenreChoice"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.fyp.GenreChoice" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

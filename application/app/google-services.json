@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "499173600353",
+    "firebase_url": "https://recommender-system-53372-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "recommender-system-53372",
+    "storage_bucket": "recommender-system-53372.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499173600353:android:044578ebd2143bb5b4ce20",
+        "android_client_info": {
+          "package_name": "com.example.fyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEc3ZiPxe0CboROa_TiUn9ekPNYfKDTh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

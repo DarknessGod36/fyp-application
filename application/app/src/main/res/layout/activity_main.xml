@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+<!--    tools:context=".">-->
+
+    <EditText
+        android:id="@+id/userIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/productIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/topNEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Top N"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/fetchRecommendationsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch Recommendations" />
+
+    <TextView
+        android:id="@+id/recommendationsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
